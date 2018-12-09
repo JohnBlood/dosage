@@ -9,7 +9,7 @@ Use the following command to install my dosage snap:
 
 ## Note:
 
-I do not own dosage. I think it is a great app an want to make it easy to install.
+I do not own dosage. I think it is a great app and want to make it easy to install.
 
 
 

@@ -1,9 +1,13 @@
-name: dosage-johnblood378 # you probably want to 'snapcraft register <name>'
+name: dosage # you probably want to 'snapcraft register <name>'
 
 version: '2.15+git' # just for humans, typically '1.2+git' or '1.3.2'
 summary: dosage is a comic strip downloader and archiver 
 description: |
-  dosage is a comic strip downloader and archiver written in Python
+    This is not an official snap.
+
+    Dosage is designed to keep a local copy of specific webcomics and other picture-based content such as Picture of the Day sites. With the dosage command line script you can get the latest strip of a webcomic, or catch-up to the last strip downloaded, or download a strip for a particular date/index (if the webcomic's site layout allows this).
+
+    For advanced options and features execute `dosage --help`.
 
 grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs and slots
@@ -14,7 +18,6 @@ apps:
     plugs: 
       - home
       - network
-      - network-bind
 
 parts:
   dosage:

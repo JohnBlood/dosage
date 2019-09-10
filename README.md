@@ -2,6 +2,7 @@
 
 a snap for [dosage](https://dosage.rocks/), a comic downloader and archiver.
 
+[![Snap Status](https://build.snapcraft.io/badge/JohnBlood/dosage.svg)](https://build.snapcraft.io/user/JohnBlood/dosage)
 
 Use the following command to install my dosage snap:
 

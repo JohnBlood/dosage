@@ -11,6 +11,7 @@ description: |
 
 grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs and slots
+base: core18
 
 architectures:
   - build-on: amd64
@@ -29,3 +30,4 @@ parts:
     source-type: git
     # See 'snapcraft plugins'
     plugin: python
+    python-version: python3

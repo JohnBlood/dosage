@@ -28,4 +28,4 @@ parts:
     source: https://github.com/webcomics/dosage.git
     source-type: git
     # See 'snapcraft plugins'
-    plugin: python3
+    plugin: python

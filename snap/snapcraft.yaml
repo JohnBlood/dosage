@@ -14,15 +14,12 @@ confinement: strict # use 'strict' once you have the right plugs and slots
 base: core20
 
 architectures:
-  - build-on: amd64
-  run-on: amd64
+  - build-on: [amd64]
 
 apps: 
   dosage: 
     command: bin/dosage
-    plugs: 
-      - home
-      - network
+    plugs: [home, network]
 
 parts:
   dosage:

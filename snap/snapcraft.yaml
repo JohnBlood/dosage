@@ -27,4 +27,4 @@ parts:
     source-type: git
     # See 'snapcraft plugins'
     plugin: python
-    python-version: python3
+    # python-version: python3
